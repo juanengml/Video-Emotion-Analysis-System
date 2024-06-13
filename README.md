@@ -85,4 +85,7 @@ Timestamp: 2024-06-13 11:16:09.231641 - Emotion: alegria
 Timestamp: 2024-06-13 11:16:09.717743 - Emotion: alegria
 Timestamp: 2024-06-13 11:16:10.216144 - Emotion: alegria
 Timestamp: 2024-06-13 11:16:10.743539 - Emotion: alegria
-``` 
+```
+
+![](output/print.png)
+
