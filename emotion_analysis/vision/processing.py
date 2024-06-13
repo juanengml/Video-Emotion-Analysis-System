@@ -1,5 +1,6 @@
 import bbox_visualizer as bbv
 from datetime import datetime as dt
+import cv2
 
 class VideoProcessor:
     def __init__(self, capture, detector, logger, writer, streamer):

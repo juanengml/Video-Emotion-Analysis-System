@@ -27,7 +27,7 @@
 
 
 
-## Demo 
+## Demo
 
 **Video Completo** - https://youtu.be/aaEWrjiB-y4
 
@@ -51,7 +51,7 @@ Instale as dependências:
 
 ``` bash
 python -m venv venv
-source venv/bin/activate   # No Windows use `venv\Scripts\activate`
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -64,7 +64,7 @@ Baixe o arquivo yolov8n-face.pt do repositório:
 4. **Coloque o arquivo baixado na raiz do diretório emotion_analysis.**
 
 ``` bash
-python runner/main.py
+python emotion_analysis/runner/main.py
 ```
 
 5. **Output Terminal**
@@ -105,6 +105,3 @@ Timestamp: 2024-06-13 11:16:10.743539 - Emotion: alegria
 ```
 
 ![](output/print.png)
-
-
-
