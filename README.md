@@ -52,6 +52,20 @@ python runner/main.py
 
 5. **Output Terminal**
 ``` bash
+
+0: 736x1280 2 faces, 310.4ms
+Speed: 9.6ms preprocess, 310.4ms inference, 0.7ms postprocess per image at shape (1, 3, 736, 1280)
+^C * Serving Flask app 'flask_opencv_streamer.streamer_3031'
+ * Debug mode: off
+
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3031
+ * Running on http://192.168.0.60:3031
+Press CTRL+C to quit
+0: 736x1280 2 faces, 277.8ms
+Speed: 11.9ms preprocess, 277.8ms inference, 0.5ms postprocess per image at shape (1, 3, 736, 1280)
+
 Timestamp: 2024-06-13 11:16:03.157902 - Emotion: alegria
 Timestamp: 2024-06-13 11:16:03.240949 - Emotion: None
 Timestamp: 2024-06-13 11:16:03.798737 - Emotion: alegria
