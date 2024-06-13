@@ -10,6 +10,10 @@
 | ![](output/ezgif-7-1ec02c40c6.gif)         | ![](output/ezgif-7-3b21dc6e2b.gif)         |
 
 
+## Demo 
+
+**Video Completo** - https://youtu.be/aaEWrjiB-y4
+
 Este projeto implementa um sistema capaz de analisar um vídeo, identificando mudanças de humor em pessoas, especificamente capturando momentos de riso, neutro e tristeza. Utiliza detecção de rostos, reconhecimento de emoções faciais e gera um vídeo de saída com as emoções identificadas.
 
 ## Instalação
