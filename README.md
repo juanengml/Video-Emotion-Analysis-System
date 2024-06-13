@@ -1,6 +1,21 @@
 # Video-Emotion-Analysis-System
 
 
+-----------------
+
+
+### Requisitos do Sistema:
+
+| Requisito                      | Status   | Descrição                                                                                           |
+|--------------------------------|----------|-----------------------------------------------------------------------------------------------------|
+| Processamento de Vídeo          | ✅       | O projeto aceita um arquivo de vídeo [Exercicio emoção pessoas.mov](https://drive.google.com/file/d/1ukcNDQfEOdJ7k1yaicRBPsw3GhIMXq8F/view?usp=sharing) como entrada para análise.    |
+| Detecção de Rosto              | ✅       | Utiliza o modelo YOLOv8 (`yolov8n-face.pt`) para detecção de rostos no vídeo.                      |
+| Reconhecimento de Emoções       | ✅       | Utiliza a biblioteca DeepFace para o reconhecimento de emoções faciais, identificando momentos de "alegria". |
+| Registro de Eventos             | ✅       | Registra os momentos em que a emoção de "alegria" é identificada no vídeo, associando-os a timestamps específicos. Exemplo no output do terminal: |
+| Interface de Usuário            | ✅       | Desenvolve uma interface simples para carregar o vídeo e visualizar os resultados da análise. Apresenta resultados no terminal e indicação de interface visual na última imagem exibida. |
+
+-------
+
 | Output                                   | Output                                    |
 |--------------------------------------------|--------------------------------------------|
 | ![](output/ezgif-7-29408f0d79.gif)         | ![](output/ezgif-7-a622151e25.gif)         |
@@ -8,6 +23,8 @@
 | Output                                   | Output                                    |
 |--------------------------------------------|--------------------------------------------|
 | ![](output/ezgif-7-1ec02c40c6.gif)         | ![](output/ezgif-7-3b21dc6e2b.gif)         |
+
+
 
 
 ## Demo 
@@ -88,4 +105,6 @@ Timestamp: 2024-06-13 11:16:10.743539 - Emotion: alegria
 ```
 
 ![](output/print.png)
+
+
 
