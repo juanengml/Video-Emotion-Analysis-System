@@ -32,8 +32,8 @@ class FaceRecognizer:
         self.MOUTH = [61, 146, 91, 181, 84, 17, 314, 405, 321, 375, 291, 308, 324, 318, 402, 317, 14, 87, 178, 88, 95]
         
         # Configurações
-        self.EAR_THRESHOLD = 0.15  # Threshold para olhos fechados
-        self.MOUTH_THRESHOLD = 0.3  # Threshold para boca aberta
+        self.EAR_THRESHOLD = 0.35  # Threshold para olhos fechados
+        self.MOUTH_THRESHOLD = 0.25  # Threshold para boca aberta
         
         # Criar diretório de saída se não existir
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
