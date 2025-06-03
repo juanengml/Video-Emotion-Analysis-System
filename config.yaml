@@ -1,0 +1,31 @@
+video:
+  input: "/home/ubuntu/Projeto/Video-Emotion-Analysis-System/input/video.mp4"
+  output: "/home/ubuntu/Projeto/Video-Emotion-Analysis-System/output/output_model.mp4"
+  fps: 20
+
+model:
+  path: "/home/ubuntu/Projeto/Video-Emotion-Analysis-System/models/yolov8n-face.pt"
+
+server:
+  port: 3031
+  debug: false
+
+faces:
+  enabled: true
+  directory: "/home/ubuntu/Projeto/Video-Emotion-Analysis-System/input/faces"
+  known_faces: []
+  groups:
+    person_1: mariana
+    person_2: luiza
+    person_3: fernanda
+    person_4: pedro
+    person_5: carlos
+    person_8: lucas
+  # Configurações de coleta
+  collection:
+    min_face_size: 20  # Tamanho mínimo da face em pixels
+    confidence_threshold: 0.5  # Limiar de confiança para detecção
+    save_interval: 30  # Intervalo de frames para salvar faces
+    tracker:
+      max_age: 30  # Número máximo de frames para manter um tracker ativo
+      min_hits: 3  # Número mínimo de detecções para considerar um tracker válido 

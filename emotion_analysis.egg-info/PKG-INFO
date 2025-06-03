@@ -1,0 +1,25 @@
+Metadata-Version: 2.4
+Name: emotion_analysis
+Version: 0.1.0
+Summary: A system to analyze emotions in video, capturing moments of laughter, neutral, and sadness.
+Home-page: https://github.com/juanengml/Video-Emotion-Analysis-System
+Author: Juan Manoel
+Author-email: juanengml@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: opencv-python
+Requires-Dist: flask-opencv-streamer
+Requires-Dist: ultralytics
+Requires-Dist: deepface
+Requires-Dist: bbox-visualizer
+Requires-Dist: prettytable
+Requires-Dist: flask
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

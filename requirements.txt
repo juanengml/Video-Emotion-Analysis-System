@@ -5,3 +5,5 @@ deepface
 bbox-visualizer
 prettytable
 flask
+click>=8.0.0
+PyYAML>=6.0

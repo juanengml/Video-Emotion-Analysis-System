@@ -1,0 +1,7 @@
+opencv-python
+flask-opencv-streamer
+ultralytics
+deepface
+bbox-visualizer
+prettytable
+flask
